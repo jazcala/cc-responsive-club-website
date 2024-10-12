@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(210, 250, 235);
+
+}
+
+nav {
+  height: 4rem;
+  display: flex;
+  background-color: darkcyan;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: floralwhite;
+
+  }
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    background-color: darksalmon;
+    color: floralwhite;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 4rem 0;
+    padding-top: 1rem;
+    height: 3rem;
+  }
+
+  #invitation {
+    padding: 1rem;
+    background-color: lightgoldenrodyellow;
+    border-radius: 0.3rem;
+    margin: 1rem;
+
+    h2 {
+      color: coral;
+      font-size: 1.6rem;
+    }
+
+    p {
+      color: dimgray;
+      line-height: 2rem;
+      font-size: 1.3rem;
+      text-align: justify;
+
+      a,
+      a:visited,
+      a:active {
+        color: darkcyan;
+      }
+
+      a:hover {
+        color: darkslategrey;
+      }
+    }
+
+  }
+
+  #quote {
+    background-color: darkcyan;
+    margin: 1rem;
+    padding: 1rem;
+    color: coral;
+    border-radius: 0.3rem;
+
+    blockquote {
+      line-height: 2rem;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    cite {
+      font-size: 1rem;
+    }
+
+
+  }
+
+  #join {
+    background-color: darksalmon;
+    margin: 1rem;
+    border-radius: .3rem;
+    padding: 1rem;
+
+    h2 {
+      color: lemonchiffon;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.4rem;
+      color:yellow;
+      margin: 1rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    margin: 0.4rem 0;
+  }
+}
+
+
+
+
+footer {
+  height: 3rem;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 1rem;
+  }
+
+}

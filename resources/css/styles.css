@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(210, 250, 235);
+}
+
+nav {
+  height: 4rem;
+  display: flex;
+  background-color: darkcyan;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: floralwhite;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main h1 {
+  background-color: darksalmon;
+  color: floralwhite;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 4rem 0;
+  padding-top: 1rem;
+  height: 3rem;
+}
+main #invitation {
+  padding: 1rem;
+  background-color: lightgoldenrodyellow;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
+main #invitation h2 {
+  color: coral;
+  font-size: 1.6rem;
+}
+main #invitation p {
+  color: dimgray;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+main #invitation p a,
+main #invitation p a:visited,
+main #invitation p a:active {
+  color: darkcyan;
+}
+main #invitation p a:hover {
+  color: darkslategrey;
+}
+main #quote {
+  background-color: darkcyan;
+  margin: 1rem;
+  padding: 1rem;
+  color: coral;
+  border-radius: 0.3rem;
+}
+main #quote blockquote {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+main #quote cite {
+  font-size: 1rem;
+}
+main #join {
+  background-color: darksalmon;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+main #join h2 {
+  color: lemonchiffon;
+  text-align: center;
+}
+main #join p {
+  font-size: 1.4rem;
+  color: yellow;
+  margin: 1rem;
+}
+main img {
+  width: 100%;
+  margin: 0.4rem 0;
+}
+
+footer {
+  height: 3rem;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: floralwhite;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
